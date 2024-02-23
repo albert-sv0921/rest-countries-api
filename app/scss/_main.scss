@@ -1,0 +1,43 @@
+.main {
+  margin: 0 auto;
+  max-width: 114rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 22rem);
+  gap: 5rem;
+  justify-content: space-between;
+
+  .card {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: $white;
+    max-width: 22rem;
+    max-height: 29rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .image {
+      margin-bottom: 1rem;
+      height: 15rem;
+      overflow: hidden;
+    }
+
+    .country {
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      padding: 0 1.4rem;
+
+      &:last-child {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}

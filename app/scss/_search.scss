@@ -1,0 +1,36 @@
+.search {
+  &__container {
+    margin: 0 auto;
+    max-width: 114rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  &__input {
+    background-color: $white;
+    padding: 1.6rem 2.2rem;
+    border-radius: 8px;
+
+    i {
+      margin-right: 1rem;
+    }
+
+    input {
+      border: none;
+      min-width: 40rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+#region {
+  border: none;
+  width: 20rem;
+  padding: 1.6rem 2.2rem;
+  border-radius: 8px;
+}

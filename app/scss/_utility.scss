@@ -1,0 +1,35 @@
+.bold {
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.none {
+  display: none !important;
+}
+
+.whiteText {
+  color: $white !important;
+}
+
+.whiteEl {
+  background-color: $white !important;
+}
+
+.darkText {
+  color: $veryDarkBlue2 !important;
+}
+
+.darkEl {
+  background-color: $darkBlue !important;
+}
